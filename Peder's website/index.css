@@ -1,0 +1,195 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+     
+
+body{
+    background: rgb(219, 219, 212);
+    font-family: 'Yatra One', cursive;
+    position: relative;
+   
+    
+
+}
+/*Section1*/
+
+#main{
+    margin: auto;
+    position: relative;
+    border-radius: 1.50%;
+    background-color: rgb(117, 133, 197);
+    max-width: 500pt;
+    width:87%;
+    height:380pt;
+    border: rgba(85, 103, 196, 0.74) solid;
+    box-shadow: rgb(14, 13, 13) 3px 4px 10px;
+    background-image: url("landscape.jpeg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 85%;
+    
+
+}
+
+.font{
+    font-family: 'Londrina Sketch', cursive;
+    color: rgb(8, 8, 8);
+    position:relative;
+    top:-10pt;
+    left: 3pt;
+    font-weight: 100%;
+    font-size: 300%;
+    width: 140pt;
+    height: 10px;
+    background: rgba(15, 6, 24, 0.185);
+   
+}
+#undertitle{
+    position: absolute;
+    top: 36pt;
+    left: 3pt;
+    color: rgb(2, 2, 2);
+    font-size: 10pt;
+
+}
+
+
+#title{
+    padding-bottom: 80pt;
+
+}
+
+
+/*Section2*/
+
+#carousel-example-generic{
+		
+    margin:auto;
+    margin-bottom: 15pt;
+}
+#carousel-example-generic-2{
+    margin:auto;
+    margin-bottom: 15pt;
+}
+#carousel-example-generic-3{
+    margin:auto;
+    margin-bottom: 15pt;
+}
+#carousel-example-generic-4{
+    margin:auto;
+    margin-bottom: 15pt;
+}
+
+.slide2{
+    width:57%;
+    border-radius: 30%;
+    
+}
+.carousels2{
+    background: black;
+    background-position: center;
+    border-radius: 1%;
+    border: black solid;
+    width:85%;
+    margin:auto;
+    margin-bottom: 20pt;
+    box-shadow: rgb(95, 94, 94) 4px 6px 9px;
+}
+.carousel-caption{
+    position: relative;
+    top: -2pt;
+   
+}
+#myart{
+    text-align: center;
+    color: white;
+    padding: 20pt
+}
+
+
+
+/*Section3*/
+
+#About{
+    background: rgba(3, 3, 3, 0.877) ;
+    position: relative;
+    width:85%;
+    height: 400pt;
+    margin: auto;
+    box-shadow: rgb(18, 18, 24)  5pt 5pt 6pt;
+    border-radius: 3%;
+  
+}
+#AP{
+    width: 110pt ;
+    height: 110pt;
+    position: relative;
+    left: -8pt;
+    top:2pt;
+    background-color: burlywood;
+    margin: 20pt;
+    border-radius: 20%;
+    box-shadow: rgb(149, 148, 150) 1pt 2pt 3pt;
+}
+#AH{
+    width: 130pt;
+    height: 70pt;
+    position: relative;
+    left: 140pt;
+    top: -120pt;
+    padding-top: 15pt;
+    font-size: 23pt;
+    font-family:   'Playfair Display', serif;
+    color: rgb(247, 245, 242);
+}
+#hr{
+    position: relative;
+    top: -100pt;
+    color: rgb(214, 205, 178);
+}
+ article{
+    columns: 3;
+    column-gap: 7pt;
+    column-rule: 2pt solid rgb(82, 82, 82);
+    color: rgb(255, 255, 255);
+    height: 90pt;
+    text-align: center;
+    align-content: center;
+    margin:20pt;
+    position: relative;
+    top: -50pt;
+    padding: 10pt;
+   overflow: hidden;
+   line-height: 2em;
+  
+}
+
+article p{
+    position: relative;
+   overflow: hidden;
+	text-align: center;
+}
+#footer{
+    float: right;
+    font-family:'Dancing Script', cursive;
+    font-size: 19pt;
+    color: rgb(247, 242, 228);
+    position: relative;
+    top: -45pt;
+    right: 20pt;
+}
+#resume{
+    float: right;
+    position: relative;
+    left: 90pt;
+    text-align: right;
+    text-decoration: underline;
+    font-family: serif;
+    color: rgba(252, 250, 247, 0.651);
+}
